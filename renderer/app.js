@@ -1,4 +1,5 @@
 const { ipcRenderer } = require("electron");
+const { addItem } = require("./items");
 
 const showModal = document.getElementById("show-modal");
 const modal = document.getElementById("modal");
@@ -28,6 +29,8 @@ addBtn.addEventListener("click", () => {
 // response
 
 ipcRenderer.on("new-item-response", (e, data) => {
-  console.log(data);
+  // console.log(data);
+  addItem(data);
   modal.style.display = "none";
+  url.value = "";
 });
