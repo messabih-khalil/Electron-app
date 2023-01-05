@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start",
+  "name": "appo",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/electron/electron-quick-start.git"
   },
-  "author": "",
+  "author": "OnePgr, Inc <amsystango@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/electron/electron-quick-start/issues"
